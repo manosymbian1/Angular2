@@ -1,0 +1,17 @@
+
+<div>
+	<label>Name</label>
+	<input [(ngModel)]="tmpObj.name" >
+</div>
+
+<!-- <h6>{{tmpObj.id}}</h6>
+<h6>{{tmpObj.name | uppercase}}</h6> -->
+
+<ul class="a">
+	<li *ngFor="let herotmp of addHeroes"> 	
+		<span class="badge">{{herotmp.id}}</span>
+	</li>
+</ul>
+
+
+
